@@ -33,8 +33,8 @@ Will be a plus if you:
 
 ### Deliver your work:
 - fork these repositories:
-    -  React app: https://github.com/WatchTowerBenefits/wt_javascript_test
-    -  Rails app: https://github.com/WatchTowerBenefits/wt_rails_test
+    -  React app: https://github.com/WatchTowerBenefits/frank_grimes.git
+    -  Rails app: https://github.com/WatchTowerBenefits/max_power.git
 - make changes and push to your repository
 - create pull requests (1 for rails repo, 1 for react repo)
 
