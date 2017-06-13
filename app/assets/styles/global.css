@@ -6,4 +6,13 @@
     height: 100%;
     font-size: 12px;
   }
+  
+  .has-danger .form-control {
+    border-color: #d9534f;
+  }
+  
+  .text-help {
+    color: #d9534f;
+  }
 }
+

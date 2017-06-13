@@ -5,6 +5,7 @@ import { browserHistory, Router, Route, Redirect } from 'react-router'
 import { Provider } from 'react-redux'
 
 import Companies from '~/app/containers/pages/companies/Companies'
+import NewCompany from '~/app/containers/pages/companies/NewCompany'
 import Layout from '~/app/containers/pages/layout/Layout'
 import store from '~/app/Store'
 import './assets/styles/global.css'
@@ -15,6 +16,7 @@ render((
       <Router history={browserHistory}>
         <Redirect from='/' to='/companies' />
         <Route path='/' component={Layout}>
+          <Router path='companies/new' component={NewCompany} />
           <Router path='companies' component={Companies} />
         </Route>
       </Router>
